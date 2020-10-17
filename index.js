@@ -65,7 +65,11 @@ email.addEventListener('blur' , ()=>{
        validEmail = false;
    }
 });
-
+emailk.addEventListener('input',()=>{
+    console.log("Just checking that its working aur not otherwise its your wise you can do")
+    let strcheking = email.value;
+    console.log(strcheking)
+})
 // email.addEventListener('input' , ()=>{
 //     console.log('email is blured');
 //     let str = email.value;
